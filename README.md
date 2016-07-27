@@ -1,6 +1,6 @@
 # Pokemon Go 3 Step Fix
 
-These scripts are to be used with @rastapasta's [Pokemon Go MITM project](https://github.com/rastapasta/pokemon-go-mitm-node) in order to fix the Nearby Pokemon's "Three Step Glitch".
+These scripts are to be used with rastapasta's [Pokemon Go MITM project](https://github.com/rastapasta/pokemon-go-mitm-node) in order to fix the Nearby Pokemon's "Three Step Glitch".
 
 ## Hardware Prerequisites
 
@@ -13,7 +13,7 @@ The preferred method to use this script for most people would be to grab a Free 
 
 ## Installing
 
-Go to @rastapasta's [Pokemon Go MITM project](https://github.com/rastapasta/pokemon-go-mitm-node) page, and follow the instructions to install his project on your server.
+Go to rastapasta's [Pokemon Go MITM project](https://github.com/rastapasta/pokemon-go-mitm-node) page, and follow the instructions to install his project on your server.
 
 Next, install php5, mysql:
 
@@ -51,11 +51,11 @@ coffee radar.coffee
 
 ## Connecting your server
 
-On Wifi: edit your wifi settings to add your server's ip address and (default) port 8081 to the proxy settings.
+On Wifi: edit your wifi settings to add your server's IP address and (default) port 8081 to the proxy settings.
 
 On Android: write down the information found in Settings->Cellular Networks->Access Point Names, then make a new APN with the same settings, except with the Proxy IP as your server's IP, and port set to 8081; this will allow you to switch easily between the two APNs.
 
-On iPhone: add your Server's IP and Port to the settings found in Settings->Celluarl->Cellular Data Network.
+On iPhone: add your Server's IP and Port to the settings found in Settings->Cellular->Cellular Data Network.
 
 ## Disconnecting from your server
 
@@ -63,8 +63,8 @@ Remove the added settings
 
 ## License
 
-Part of this code was borrowed from @rastapasta's In Game Radar example, where PokeStops are populated with Pokemon's information, and is to be used with his main program.  As such, the license's are the same.
+Part of this code was borrowed from rastapasta's In Game Radar example, where PokeStops are populated with Pokemon's information, and is to be used with his main program.  As such, the license's are the same.
 
 ## Credits
 
-Special thanks to @rastapasta for the Pokemon Go mitm, and everyone who helped with that project!
+Special thanks to rastapasta for the Pokemon Go mitm, and everyone who helped with that project!
