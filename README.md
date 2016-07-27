@@ -15,6 +15,12 @@ The preferred method to use this script for most people would be to grab a Free 
 
 Go to rastapasta's [Pokemon Go MITM project](https://github.com/rastapasta/pokemon-go-mitm-node) page, and follow the instructions to install his project on your server.
 
+Inside of the pokemon-go-mitm-node folder, install node's mysql client:
+
+```
+npm install mysql
+```
+
 Next, install php5, mysql:
 
 ```
@@ -63,7 +69,7 @@ Remove the added settings
 
 ## License
 
-Part of this code was borrowed from rastapasta's In Game Radar example, where PokeStops are populated with Pokemon's information, and is to be used with his main program.  As such, the license's are the same.
+Part of this code was borrowed from rastapasta's In Game Radar example, where PokeStops are populated with Pokemon's information, and is to be used with his main program.  As such, the licenses are the same.
 
 ## Credits
 
