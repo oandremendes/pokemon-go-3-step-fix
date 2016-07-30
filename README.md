@@ -1,8 +1,20 @@
 # Pokemon Go 3 Step Fix
 
-These scripts are to be used with rastapasta's [Pokemon Go MITM project](https://github.com/rastapasta/pokemon-go-mitm-node) in order to fix the Nearby Pokemon's "Three Step Glitch".
+## New Readme
 
-## Hardware Prerequisites
+While updating the script for removing unused/less-than-appealing code as well as the database, I got a notification to alerting me of this pull request:
+
+[Adds 3 Step Fix to Pokemon-Go-MITM-Node's Examples](https://github.com/rastapasta/pokemon-go-mitm-node/pull/66)
+
+Needless to say, I was happy to see [trisk](https://github.com/trisk) adding my idea to his code for the main Pokemon Go MITM Repo.
+
+Instead of using this (even if I finished updating it), I recommend you going there and use that instead.
+
+From the beginning I had planned on trying to add this to the main repo when the code was much cleaner, so it's nice to see this idea potentially being added there ahead of schedule.
+
+## Old Readme
+
+### Hardware Prerequisites
 
 This script has been tested on an Ubuntu server, but these instructions should be able to be modified for any Unix server.
 
@@ -11,7 +23,7 @@ The preferred method to use this script for most people would be to grab a Free 
  * Doesn't expose your home computer/network to the world
  * Easy to configure and setup
 
-## Installing
+### Installing
 
 Go to rastapasta's [Pokemon Go MITM project](https://github.com/rastapasta/pokemon-go-mitm-node) page, and follow the instructions to install his project on your server.
 
@@ -55,7 +67,7 @@ Run the script!
 coffee radar.coffee
 ```
 
-## Connecting your server
+### Connecting your server
 
 On Wifi: edit your wifi settings to add your server's IP address and (default) port 8081 to the proxy settings.
 
@@ -63,14 +75,14 @@ On Android: write down the information found in Settings->Cellular Networks->Acc
 
 On iPhone: add your Server's IP and Port to the settings found in Settings->Cellular->Cellular Data Network.
 
-## Disconnecting from your server
+### Disconnecting from your server
 
 Remove the added settings
 
-## License
+### License
 
 Part of this code was borrowed from rastapasta's In Game Radar example, where PokeStops are populated with Pokemon's information, and is to be used with his main program.  As such, the licenses are the same.
 
-## Credits
+### Credits
 
 Special thanks to rastapasta for the Pokemon Go mitm, and everyone who helped with that project!
